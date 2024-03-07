@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" onclick="laugh()" value="笑">
+<img src="../img/大宝.jpg" id="dabao" width="200" height="200">
+<input type="button" onclick="cry()" value="哭">
+
+<script>
+    function laugh() {
+        document.getElementById("dabao").src="../img/大宝笑.jpg";
+    }
+    function cry() {
+        document.getElementById("dabao").src="../img/大宝哭.jpg";
+    }
+</script>
+</body>
+</html>
